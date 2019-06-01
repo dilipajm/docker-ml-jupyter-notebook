@@ -1,7 +1,12 @@
-# Use public Docker
+# Use public Docker using docker-compose up
+Step 1 - cd your_project
+Step 2 - curl -O https://bitbucket.org/dilipajm/ai_docker/raw/a5db876c6542431c6459c51bedc7e20aeb925c03/docker-compose.yml
+Step 3 - docker-compose up
+
+# Use public Docker via dockerfile
 1. Install docker
-2. docker pull jupyter/tensorflow-notebook OR docker pull diliplilaramani/ai_docker:latest
-3. docker run -p 8888:8888 jupyter/tensorflow-notebook OR docker run -p 8888:8888 diliplilaramani/ai_docker
+2. docker pull diliplilaramani/ai_docker:latest
+3. docker run -p 8888:8888 diliplilaramani/ai_docker
 
 # LINK - https://ropenscilabs.github.io/r-docker-tutorial/04-Dockerhub.html
 

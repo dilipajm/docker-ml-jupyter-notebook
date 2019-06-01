@@ -2,7 +2,8 @@ version: '3'
 
 services:
   ai:
-    image: diliplilaramani/ai_docker:1.0
+    image: diliplilaramani/ai_docker:1.1
+    # build: .
     ports:
      - "8888:8888"
     volumes:
