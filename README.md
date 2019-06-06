@@ -1,6 +1,9 @@
 # Use public Docker using docker-compose up
+
 Step 1 - cd your_project
-Step 2 - curl -O https://bitbucket.org/dilipajm/ai_docker/raw/b48abfd1debdca0179028c9ea33d175fe5510045/docker-compose.yml
+
+Step 2 - curl -O https://raw.githubusercontent.com/dilipajm/docker-ml-jupyter-notebook/master/docker-compose.yml
+
 Step 3 - docker-compose up
 
 # Use public Docker via dockerfile
