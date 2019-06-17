@@ -1,4 +1,6 @@
-# Use public Docker using docker-compose up
+# Jupyter Notebook + PyTorch + OpenCV (for Machine Learning) https://hub.docker.com/r/diliplilaram…
+
+## Via command, docker-compose up
 
 Step 1 - cd your_project
 
@@ -6,7 +8,7 @@ Step 2 - curl -O https://raw.githubusercontent.com/dilipajm/docker-ml-jupyter-no
 
 Step 3 - docker-compose up
 
-## Use public Docker via dockerfile
+## Via dockerfile
 1. Install docker
 2. docker pull diliplilaramani/ai_docker:latest
 3. docker run -p 8888:8888 diliplilaramani/ai_docker
@@ -15,7 +17,7 @@ Step 3 - docker-compose up
 1. create dockerfile
 2. docker build -t <ai_docker> .
 3. docker images
-4. docker tag bb38976d03cf diliplilaramani/ai_docker:0.2
+4. docker tag bb38976d03cf diliplilaramani/ai_docker:1.2
 5. docker push diliplilaramani/ai_docker
 
 ## Saving and loading images
