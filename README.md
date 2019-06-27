@@ -2,7 +2,9 @@
 
 ### https://hub.docker.com/r/diliplilaramani/ai_docker
 
-### Libraries - Python 3.7
+### Depends on base docker: jupyter/tensorflow-notebook
+
+### Libraries included - Python 3.7
     1. Tensorflow = 1.13
     2. Keras = 2.2
     3. opencv-python==3.4.2.17
