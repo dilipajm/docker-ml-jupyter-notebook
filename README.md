@@ -5,7 +5,7 @@
 ### Depends on base docker: jupyter/tensorflow-notebook
 
 ### Libraries included - Python 3.7
-    1. Tensorflow = 1.13
+    1. Tensorflow = 2.0.0-beta1
     2. Keras = 2.2
     3. opencv-python==3.4.2.17
     4. ipywidgets=7.4*
@@ -48,7 +48,7 @@ Step 3 - docker-compose up
 
 ## Push our Dockerfile to DockerHub
 1. create dockerfile
-2. docker build -t <ai_docker> .
+2. docker build -t ai_docker .
 3. docker images
 4. docker tag bb38976d03cf diliplilaramani/ai_docker:1.2
 5. docker push diliplilaramani/ai_docker
