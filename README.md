@@ -37,7 +37,7 @@
 
 Step 1 - cd your_project
 
-Step 2 - curl -O https://raw.githubusercontent.com/dilipajm/docker-ml-jupyter-notebook/master/docker-compose.yml
+Step 2 - curl -O https://raw.githubusercontent.com/diliplilaramani/docker-ml-jupyter-notebook/master/docker-compose.yml
 
 Step 3 - docker-compose up
 
